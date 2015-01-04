@@ -1,0 +1,96 @@
+
+* {
+  font-family: verdana, arial;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 16px;
+  margin: 0px;
+}
+
+body {
+  font-size: 12px;
+  background-color: white;
+  margin:0px;
+  padding:0px;
+}
+
+div {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.clear-both {clear: both;}
+
+#header
+{
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.2);
+  line-height: 60px;
+  padding-left: 10px;
+}
+
+#header h1 {
+  color: blue;
+  font-size: 2em;
+}
+
+.input_wrap, 
+.output_wrap {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 40%;
+  height: 100px;
+  min-height: 100px;
+  min-width: 240px;
+  max-width: 500px;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  padding: 5px;
+}
+
+#input, #output {
+  height: 100%;
+  width: 100%;
+  font-size: 1.5em;
+  padding: 5px;
+  border: none;
+}
+
+.output_wrap {
+  padding: 10px;
+}
+
+#input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  resize: none;
+}
+
+#toolbar {
+  padding: 10px 10px 0px 10px;
+}
+
+.btn-action {
+  width: 80px;
+  height: 36px;
+  background-color: rgb(77, 144, 254);
+  background-image: -o-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237));
+  background-image: -moz-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237));
+  background-image: linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237));
+  background-image: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237));
+  background-image: -ms-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237));
+  border: 1px solid rgb(48, 121, 237);
+  border-radius: 0.3em;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;  
+}
+
