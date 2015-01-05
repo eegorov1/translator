@@ -8,3 +8,5 @@
 5. $ npm install body-parser
 
 6. $ node server.js
+
+7. Type http://localhost:3000/index.html in the browser.
