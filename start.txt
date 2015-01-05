@@ -1,0 +1,12 @@
+// To start the example:
+
+1. Instal NodeJS
+2. Install Git
+3. $ git clone https://github.com/eegorov1/translator.git trans
+4. $ npm install express
+5. $ npm install serve-static
+5. $ npm install body-parser
+
+6. edit the file .git/ 
+
+7. $ node server.js

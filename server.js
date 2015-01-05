@@ -1,11 +1,4 @@
 
-// start the example:
-// $ npm install express
-// $ npm install body-parser
-//
-// $ node server.js
-//
-
 var express = require('express')
   , http = require('http')
   , serveStatic = require('serve-static')
