@@ -7,6 +7,4 @@
 5. $ npm install serve-static
 5. $ npm install body-parser
 
-6. edit the file .git/ 
-
-7. $ node server.js
+6. $ node server.js
