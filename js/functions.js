@@ -1,5 +1,5 @@
 "use strict"
-     
+
 $(function(){
 
   $("#translate").on("click", function(){
@@ -41,4 +41,9 @@ function log() {
   console.log.apply(console, arguments);
 }
 
-      
+function test1() {
+
+   return;
+}
+
+
